@@ -1,0 +1,111 @@
+body {
+    font-family: verdana;
+    text-align: center;
+}
+
+button {
+    border: 1px solid #6495ed;
+    border-radius: 5px;
+    margin: 30px 5px;
+    outline: none;
+    background-color: #fff;
+    color: #6495ed;
+    font-size: 15px;
+}
+
+button.link {
+    color: #000;
+    background-color: #6495ed;
+    margin: 20px;
+}
+
+.store-header {
+    font-size: 20px;
+    padding-top: 30px;
+    margin: -8px;
+    background-color: #6495ed;
+    height: 60px;
+}
+
+.add-inventory-container {
+    padding-top: 50px;
+    width: 80%;
+    margin: auto;
+}
+
+.inventory-form-container {
+    padding: 10px 30px 10px;
+    width: 60%;
+    margin: auto;
+}
+
+.current-inventory-container {
+    padding: 10px 30px 30px;
+    width: 60%;
+    margin: auto;
+    border-top: 1px solid #000;
+}
+
+.inventory-list {
+    display: -webkit-flex;
+    display: flex;
+    -webkit-align-items: center;
+    align-items: center;
+    -webkit-justify-content: center;
+    justify-content: center;
+    -webkit-flex-flow: wrap;
+    flex-flow: wrap;
+    -webkit-align-content: center;
+    align-content: center;
+}
+
+.inventory-item {
+    width: 30%;
+    margin: 10px;
+    padding: 20px;
+    border: 1px solid #000;
+    border-radius: 10px;
+}
+
+.inventory-item-description {
+    font-weight: 700;
+}
+
+.inventory-item-price {
+    font-size: 12px;
+}
+
+.cart-contents-container, .inventory-item-description {
+    text-transform: capitalize;
+}
+
+.cart-item {
+    border-top: 1px solid #000;
+    border-bottom: 1px solid #000;
+    width: 30%;
+    padding: 30px 0;
+    margin: auto;
+}
+
+.cart-total {
+    padding-top: 20px;
+}
+
+.remove-button {
+    margin-left: 10px;
+}
+
+form input {
+    border: none;
+    text-align: center;
+    border-bottom: 1px solid #000;
+}
+
+form span {
+    font-size: 11px;
+}
+
+form .error {
+    color: red;
+    font-size: 11px;
+}
